@@ -6,7 +6,6 @@
 
 
 # 2、创建并在Notebook内编写代码
-
 ## 1、新建一个Notebook Python 3 (ipykernel)，生成了一个Untitled.ipynb文件。
 我们可以在这个文件里编写代码和编写markdown笔记
 
@@ -14,22 +13,50 @@
 ## 2、进行简单的python例子
 1、自定义代码进行测试观察IN[]
 ![](https://github.com/floweral/images/blob/lab4/p2.png)
+
 修改文件名
 ![](https://github.com/floweral/images/blob/lab4/p3.png)
+
 2、编写快速排序算法
 ![](https://github.com/floweral/images/blob/lab4/p5.png)
 
 ## 3、进行机器学习的模拟
-1、下载数据集
+### 1、下载数据集
 ![](https://github.com/floweral/images/blob/lab4/p6.png)
-2、将数据集上传到jupyter
+
+### 2、将数据集上传到jupyter
 ![](https://github.com/floweral/images/blob/lab4/p7.png)
 ![](https://github.com/floweral/images/blob/lab4/p8.png)
-3、编写代码进行测试
-4、测试结果如下：
+
+### 3、导入相关的工具库
+    %matplotlib inline
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+   
+### 4、检查数据集
 ![](https://github.com/floweral/images/blob/lab4/p9.png)
 ![](https://github.com/floweral/images/blob/lab4/p10.png)
+
+### 5、使用matplotlib进行绘图
+
+### 6、测试结果如下：
+
 ![](https://github.com/floweral/images/blob/lab4/p11.png)
+
+# 3、进行jupyter扩展下载
+使用如下安装过程即可安装扩展
+pip install jupyter_contrib_nbextensions
+
+jupyter contrib nbextension install --user
+
+pip install jupyter_nbextensions_configurator
+
+jupyter nbextensions_configurator enable --user
+
+
+
+
 
 
 %matplotlib inline
