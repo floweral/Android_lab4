@@ -59,35 +59,6 @@ jupyter nbextensions_configurator enable --user
 
 
 
-%matplotlib inline
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-df = pd.read_csv('fortune500.csv')
-
-df.head()
-
-df.tail()
-
-df.columns = ['year', 'rank', 'company', 'revenue', 'profit']
-
-len(df)
-df.dtypes
-
-non_numberic_profits = df.profit.str.contains('[^0-9.-]')
-df.loc[non_numberic_profits].head()
-
-len(df.profit[non_numberic_profits])
-
-bin_sizes, _, _ = plt.hist(df.year[non_numberic_profits], bins=range(1955, 2006))
-
-len(df)
-
-df.dtypes
-
-
-
 ```python
 %matplotlib inline
 import pandas as pd
