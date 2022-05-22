@@ -58,7 +58,7 @@ jupyter nbextensions_configurator enable --user
 
 
 
-
+# 代码如下
 ```python
 %matplotlib inline
 import pandas as pd
@@ -105,8 +105,6 @@ df.dtypes
     
 ![png](output_2_1.png)
     
-
-
 
 ```python
 %matplotlib inline
