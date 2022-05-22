@@ -2,6 +2,7 @@
 打开本地anaconda的Jupyter Notebook
 
 ![](https://github.com/floweral/images/blob/lab4/p4.png)
+
 打开如下
 
 ![](https://github.com/floweral/images/blob/lab4/p1.png)
