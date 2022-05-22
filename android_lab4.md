@@ -1,6 +1,8 @@
 # 1、打开Jupyter Notebook
 打开本地anaconda的Jupyter Notebook
-![]()
+![](https://github.com/floweral/images/blob/lab4/p4.png)
+打开如下
+![](https://github.com/floweral/images/blob/lab4/p1.png)
 
 
 # 2、创建并在Notebook内编写代码
@@ -11,18 +13,24 @@
 
 ## 2、进行简单的python例子
 1、自定义代码进行测试观察IN[]
+![](https://github.com/floweral/images/blob/lab4/p2.png)
+修改文件名
+![](https://github.com/floweral/images/blob/lab4/p3.png)
 2、编写快速排序算法
+![](https://github.com/floweral/images/blob/lab4/p5.png)
 
 ## 3、进行机器学习的模拟
 1、下载数据集
-![]()
+![](https://github.com/floweral/images/blob/lab4/p6.png)
 2、将数据集上传到jupyter
-![]()
-![]()
+![](https://github.com/floweral/images/blob/lab4/p7.png)
+![](https://github.com/floweral/images/blob/lab4/p8.png)
 3、编写代码进行测试
 4、测试结果如下：
-![]()
-![]()
+![](https://github.com/floweral/images/blob/lab4/p9.png)
+![](https://github.com/floweral/images/blob/lab4/p10.png)
+![](https://github.com/floweral/images/blob/lab4/p11.png)
+
 
 %matplotlib inline
 import pandas as pd
